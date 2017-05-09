@@ -5,47 +5,42 @@
 	<meta charset="UTF-8">
 	<title>Basic-portfolio</title>
 	<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	</head>
-	<body>
-		
-		<nav class="navbar navbar-default">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#">Hayelom Reda</a>
-				</div>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">about</a></li>
-					<li><a href="#">portifolio</a></li>
-					<li><a href="#">contact</a></li>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Hayelom Reda</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">about</a></li>
+				<li><a href="#">portifolio</a></li>
+				<li><a href="#">contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<form>    
+					<label for="name">Name</label><br>
+					<input id="name" type="text"placeholder="Jon Doe" required><br>
+					<label for="email">Email</label><br>
+					<input id="email" type="email" name="email"placeholder="example@gmail.com" required><br>
+					<label for="textfield">Message</label><br>
+					<textarea rows="10" cols="100"></textarea><br>
+					<button class="button" type="submit" name="submit">Submit</button>
+				</form>
+			</div>
+			<div class="col-md-4">
+				<h3>Connect with Me</h3>
+				<ul>
+					<li><a href="https://github.com/HayelomR"><img class="icon" src="assets/images/github-128.png" alt="GitHub Profile"></a></li>
+					<li><a href="https://www.linkedin.com/in/hayelom-reda-5b81a8141/"><img class="icon" src="assets/images/linkedin-128.png" alt="Linkedn Profile"></a></li>
+					<li><a href="http://stackoverflow.com/users/7847086/h-reda"><img class="icon" src="assets/images/stackoverflow-128.png" alt="StackOverflow Profile"></a></li>
 				</ul>
 			</div>
-		</nav>
-		<div class="container">
-		<div class="row">
-		<div class="col-md-8">
-	<form>    
-            <label for="name">Name</label><br>
-            <input id="name" type="text"placeholder="Jon Doe" required><br>
-            <label for="email">Email</label><br>
-            <input id="email" type="email" name="email"placeholder="example@gmail.com" required><br>
-            <label for="textfield">Message</label><br>
-            <textarea rows="10" cols="100"></textarea><br>
-            <button class="button" type="submit" name="submit">Submit</button>
-</form>
-</div>
-<div class="col-md-4">
-					<h3>Connect with Me</h3>
-					<ul>
-						<li><a href="https://github.com/HayelomR"><img class="icon" src="assets/images/github-128.png" alt="GitHub Profile"></a></li>
-						<li><a href="https://www.linkedin.com/in/hayelom-reda-5b81a8141/"><img class="icon" src="assets/images/linkedin-128.png" alt="Linkedn Profile"></a></li>
-						<li><a href="http://stackoverflow.com/users/7847086/h-reda"><img class="icon" src="assets/images/stackoverflow-128.png" alt="StackOverflow Profile"></a></li>
-					</ul>
-				</div>
-
-
-
-</div>
-			
+		</div>
 		<footer>
 			<div class="container">
 				<p class="text-center text-muted">
@@ -54,6 +49,6 @@
 			</div>
 		</footer>
 	</div>
-		</div>
-	</body>
-	</html>
+</div>
+</body>
+</html>
