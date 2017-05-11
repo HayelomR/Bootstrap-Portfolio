@@ -5,6 +5,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+
 }
 .footer {
   position: absolute;
@@ -15,4 +16,13 @@ text-align: center;
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: #666666;
+}
+.container{
+  color: #777777;
+}
+.social{
+  width: 50px;
+    height: auto;
+    color: none;
+    border-right: none;
 }
